@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-	<!--Insert OG Markup -->
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes">
 
-    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+	<!-- SEO & Social -->
+	<meta name="author" content="Leandro Lobo">
+	<meta name="description"
+		content="Leandro Lobo | Full Stack Developer .NET & Angular. +4 años de experiencia creando soluciones web robustas.">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Leandro Lobo | Full Stack Developer">
+	<meta property="og:description"
+		content="Portfolio de Leandro Lobo. Desarrollador Full Stack especializado en .NET y Angular.">
+	<meta property="og:image" content="img/portadaLL.png">
+	<meta property="og:url" content="https://leandrolobo.github.io/">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Leandro Lobo | Full Stack Developer">
+	<meta name="twitter:description"
+		content="Portfolio de Leandro Lobo. Desarrollador Full Stack especializado en .NET y Angular.">
 
-    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Leandro Lobo | web developer" />
+	<title>Leandro Lobo | Full Stack Developer</title>
 
-    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Página Web personal | Portafolio" />
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="img/portadaLL.png" />
+	<!-- Devicon -->
+	<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
-    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://leandrolobo.github.io/" />
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <meta name="author" content="Leandro Lobo">
-
-    <!--Insert Twitter Card Markup -->
-
-    <meta name="twitter:card" content="summary_large_image" />
-
-    <meta name="twitter:site" content="@YourTwitterUsername" />
-
-    <meta name="twitter:domain" content="https://leandrolobo.github.io/" />
-
-    <meta name="twitter:title" content="Leandro Lobo | web developer" />
-
-    <meta name="twitter:description" content="Página Web personal | Portafolio" />
-
-    <!-- Para whatsapp -->
-    <meta name="image" property="og:image" content="img/portadaLL.png" />
-    <meta property="og:image:secure_url" content="img/portadaLL.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="300" />
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <!-- Your app title -->
-    <title>Leandro Lobo | web developer</title>
+	<!-- Styles -->
 	<link rel="stylesheet" href="css/estilos-index.css">
-	<link rel="shortcut icon" type="image/png" href="img/logoLobo.png"/>
+	<link rel="shortcut icon" type="image/png" href="img/logoLobo.png" />
 </head>
+
 <body>
 	<div id="menu">
 		<div id="btn-menu" class="btn-oculto">
@@ -52,289 +50,375 @@
 		</div>
 		<div id="lista-menu" class="lista-oculta">
 			<a class="icono-texto btn-cerrar">
-				<i class="icono-close"></i>
+				<i class='bx bx-x'></i>
 			</a>
-			<a href="#portada" class="scroll-suave">inicio</a>
-			<a href="#portafolio" class="scroll-suave">portafolio</a>
-			<a href="#sobre-mi" class="scroll-suave">sobre mí</a>
-			<a href="#contacto" class="scroll-suave">contacto</a>
-			<div>
+			<a href="#portada" class="scroll-suave">Inicio</a>
+			<a href="#sobre-mi" class="scroll-suave">Perfil</a>
+			<a href="#experiencia" class="scroll-suave">Experiencia</a>
+			<a href="#skills" class="scroll-suave">Tecnologías</a>
+			<a href="#portafolio" class="scroll-suave">Proyectos</a>
+			<a href="#contacto" class="scroll-suave">Contacto</a>
+			<div class="social-menu">
 				<a href="https://github.com/LeandroLobo" class="icono-texto" target="blank">
-					<i class="icono-github"></i>
+					<i class='bx bxl-github'></i>
 				</a>
 				<a href="https://www.linkedin.com/in/leandrolobo-app-developer/" class="icono-texto" target="blank">
-					<i class="icono-linkedin"></i>
+					<i class='bx bxl-linkedin'></i>
 				</a>
 				<a href="mailto:leandrolobomarquez@gmail.com" class="icono-texto" target="blank">
-					<i class="icono-mail"></i>
+					<i class='bx bx-envelope'></i>
 				</a>
 			</div>
 		</div>
 	</div>
-	<section id="portada" class="caja-portada parallax">
-		<div class="titulo-portada">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<h1>LEANDRO LOBO</h1>
-			<h2>web developer</h2>
-		</div>
-		<div id="cubo">
-			<span><a href="#portafolio" class="scroll-suave">portafolio</a></span>
-			<span><a href="#sobre-mi" class="scroll-suave">sobre mí</a></span>
-			<span><a href="#contacto" class="scroll-suave">contacto</a></span>
-			<span></span>
-			<span></span>
-			<p>?</p>
-		</div>
-	</section>
-	<section id="portafolio" class="caja-section">
-		<div class="titulo-section">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<h3>portafolio</h3>
-		</div>
-		<div class="tarjetero">
 
-			<div class="contenedor-tarjeta">
-				<div class="tarjeta">
-					<img src="img/server-code.png" alt="hosted-server">
-					<div class="info-tarjeta">
-						<h3>Hosted Server</h3>
-						<h4>BackEnd</h4>
-						<p>Solicitudes GET, root static, lectura y escritura de archivos.</p>
-						<p>#Express #Node.js</p>
-						<div>
-							<a href="https://tp3-express-server.glitch.me/" class="icono-texto" target="blank">
-								<p>abrir:</p>
-								<i class="icono-play"></i>
-							</a>
-							<a href="https://github.com/LeandroLobo/TP3DesaFizzmod2021" class="icono-texto" target="blank">
-								<p>ver código:</p>
-								<i class="icono-github"></i>
-							</a>
-						</div>
+	<main class="main-container">
+		<section id="portada" class="section-hero">
+			<div class="hero-text">
+				<p class="greeting">Hola, soy</p>
+				<h1>Leandro Lobo</h1>
+				<h2>Desarrollador Full Stack .NET & Angular</h2>
+				<p class="bio-short">
+					Profesional con más de 4 años de experiencia en el desarrollo de aplicaciones web.
+					Enfocado en la construcción de soluciones escalables y mantenibles.
+				</p>
+				<div class="hero-actions">
+					<a href="#contacto" class="btn btn-primary scroll-suave">Contactar</a>
+					<a href="#experiencia" class="btn btn-outline scroll-suave">Ver Experiencia</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="sobre-mi" class="section-content">
+			<div class="section-header">
+				<h3>Perfil Profesional</h3>
+			</div>
+			<div class="profile-content">
+				<div class="profile-text">
+					<p>
+						Soy un desarrollador Semi Senior apasionado por la tecnología y la resolución de problemas
+						complejos.
+						Mi trayectoria es diversa, habiendo transitado desde la docencia en matemáticas y la técnica
+						aeronáutica
+						hacia el desarrollo de software. Esta experiencia multidisciplinaria me aporta una visión
+						analítica
+						y estructurada para abordar desafíos lógicos.
+					</p>
+					<p>
+						Actualmente me desempeño como Full Stack Developer, combinando la robustez de .NET en el backend
+						con la versatilidad de Angular en el frontend. Disfruto trabajando en equipos ágiles y
+						aprendiendo
+						continuamente nuevas tecnologías para mejorar la calidad del software que construyo.
+					</p>
+					<div class="cv-download">
+						<a download="CV Leandro Lobo" href="img\CV Leandro Lobo.pdf" class="link-download">
+							<i class='bx bx-download'></i> Descargar Curriculum Vitae (PDF)
+						</a>
 					</div>
 				</div>
 			</div>
+		</section>
 
-			<div class="contenedor-tarjeta">
-				<div class="tarjeta">
-					<img src="img/tatetiCanvas.png" alt="tatetiCanvas">
-					<div class="info-tarjeta">
-						<h3>TATETI Canvas</h3>
-						<h4>3 modos de juego</h4>
-						<p>Animaciones con la propiedad canvas. 2 niveles de I.A.</p>
-						<p>#canvas #JS</p>
-						<div>
-							<a href="https://leandrolobo.github.io/tatetiCanvas/" class="icono-texto" target="blank">
-								<p>jugar:</p>
-								<i class="icono-play"></i>
-							</a>
-							<a href="https://github.com/LeandroLobo/tatetiCanvas" class="icono-texto" target="blank">
-								<p>ver código:</p>
-								<i class="icono-github"></i>
-							</a>
-						</div>
+		<section id="experiencia" class="section-content alt-bg">
+			<div class="section-header">
+				<h3>Experiencia Laboral</h3>
+			</div>
+			<div class="timeline-simple">
+				<div class="job-item">
+					<div class="job-date">2021 - Presente</div>
+					<div class="job-details">
+						<h4>Full Stack Developer</h4>
+						<span class="job-tech">Movizen</span>
+						<p>
+							Desarrollo y mantenimiento de aplicaciones web empresariales con .NET y Angular.
+							Participación activa en el ciclo completo de desarrollo, desde la definición de
+							requerimientos hasta el despliegue.
+							Implementación de nuevas funcionalidades y refactorización de código legado para mejorar el
+							rendimiento y la mantenibilidad.
+							Trabajo en equipo utilizando metodologías ágiles (Scrum) y control de versiones con Git.
+						</p>
+					</div>
+				</div>
+
+				<div class="job-item">
+					<div class="job-date">Oct 2014 - Dic 2020</div>
+					<div class="job-details">
+						<h4>Profesor Particular de Matemáticas y Física</h4>
+						<span class="job-tech">Educación</span>
+						<p>
+							Clases de apoyo para estudiantes de todos los niveles (primario, secundario, CBC).
+							Desarrollo de habilidades pedagógicas, comunicación efectiva de conceptos complejos y
+							adaptación de metodologías según las necesidades individuales de cada estudiante.
+						</p>
+					</div>
+				</div>
+
+				<div class="job-item">
+					<div class="job-date">Jul 2019 - Dic 2019</div>
+					<div class="job-details">
+						<h4>Auxiliar Estudiante - Óptica y Sonido</h4>
+						<span class="job-tech">Universidad Nacional de Moreno</span>
+						<p>
+							Apoyo teórico y práctico para estudiantes de ingeniería electrónica en la orientación
+							"multimedios".
+							Asistencia en el curso de óptica y sonido, facilitando la comprensión de conceptos técnicos
+							avanzados.
+						</p>
+					</div>
+				</div>
+
+				<div class="job-item">
+					<div class="job-date">Ago 2011 - Jul 2014</div>
+					<div class="job-details">
+						<h4>Comprador Técnico Aeronáutico</h4>
+						<span class="job-tech">Sol S.A. Líneas Aéreas</span>
+						<p>
+							Solicitud y evaluación de cotizaciones de productos y servicios aeronáuticos.
+							Administración de inventario, manejo de documentación técnica y control de vencimientos.
+							Desarrollo de habilidades analíticas y atención al detalle en un entorno altamente regulado.
+						</p>
 					</div>
 				</div>
 			</div>
+		</section>
 
-			<div class="contenedor-tarjeta">
-				<div class="tarjeta">
-					<img src="img/trucon.png" alt="trucon">
-					<div class="info-tarjeta">
-						<h3>TrucOn</h3>
-						<h4>Truco 1 vs 1 Online</h4>
-						<p>Proyecto final curso desarrollo mobile (ComIT).</p>
-						<p>#GoogleFirebase</p>
-						<div>
-							<a href="https://leandrolobo.github.io/TrucOn/" class="icono-texto" target="blank">
-								<p>jugar:</p>
-								<i class="icono-play"></i>
-							</a>
-							<a href="https://github.com/LeandroLobo/TrucOn" class="icono-texto" target="blank">
-								<p>ver código:</p>
-								<i class="icono-github"></i>
-							</a>
+		<section id="skills" class="section-content">
+			<div class="section-header">
+				<h3>Stack Tecnológico</h3>
+			</div>
+			<div class="tech-grid">
+				<div class="tech-category">
+					<h4>Frontend</h4>
+					<ul class="tech-list">
+						<li><i class="devicon-angularjs-plain colored"></i> <span>Angular (v10+)</span></li>
+						<li><i class="devicon-typescript-plain colored"></i> <span>TypeScript</span></li>
+						<li><i class="devicon-javascript-plain colored"></i> <span>JavaScript (ES6+)</span></li>
+						<li><i class="devicon-html5-plain colored"></i> <span>HTML5 / CSS3 / SASS</span></li>
+						<li><i class="devicon-rxjs-plain colored"></i> <span>RxJS</span></li>
+					</ul>
+				</div>
+				<div class="tech-category">
+					<h4>Backend</h4>
+					<ul class="tech-list">
+						<li><i class="devicon-csharp-plain colored"></i> <span>C# .NET</span></li>
+						<li><i class="devicon-dotnetcore-plain colored"></i> <span>.NET Core / Framework</span></li>
+						<li><i class="devicon-microsoftsqlserver-plain colored"></i> <span>Entity Framework</span></li>
+						<li><i class="devicon-microsoftsqlserver-plain colored"></i> <span>SQL Server</span></li>
+						<li><i class="devicon-nodejs-plain colored"></i> <span>REST APIs</span></li>
+					</ul>
+				</div>
+				<div class="tech-category">
+					<h4>Herramientas & Metodologías</h4>
+					<ul class="tech-list">
+						<li><i class="devicon-git-plain colored"></i> <span>Git / GitHub</span></li>
+						<li><i class="devicon-azuredevops-plain colored"></i> <span>Azure DevOps</span></li>
+						<li><i class="devicon-jira-plain colored"></i> <span>Scrum / Agile</span></li>
+						<li><i class="devicon-vscode-plain colored"></i> <span>SOLID Principles</span></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="portafolio" class="section-content alt-bg">
+			<div class="section-header">
+				<h3>Proyectos Personales</h3>
+				<p class="section-subtitle">Selección de trabajos realizados durante mi formación</p>
+			</div>
+
+			<div class="carousel-container">
+				<button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
+
+				<div class="carousel-window">
+					<div class="carousel-track">
+						<!-- Project 1 -->
+						<div class="project-card">
+							<div class="card-image">
+								<img src="img/server-code.png" alt="Hosted Server">
+							</div>
+							<div class="project-info">
+								<h4>Hosted Server</h4>
+								<p class="project-desc">Servidor backend simple con Node.js y Express. Rutas estáticas y
+									peticiones HTTP.</p>
+								<div class="project-tags">
+									<span>Node.js</span>
+									<span>Express</span>
+								</div>
+								<div class="project-links">
+									<a href="https://tp3-express-server.glitch.me/" target="_blank"><i
+											class='bx bx-link-external'></i> Demo</a>
+									<a href="https://github.com/LeandroLobo/TP3DesaFizzmod2021" target="_blank"><i
+											class='bx bxl-github'></i> Code</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project 2 -->
+						<div class="project-card">
+							<div class="card-image">
+								<img src="img/tatetiCanvas.png" alt="TATETI Canvas">
+							</div>
+							<div class="project-info">
+								<h4>TATETI Canvas</h4>
+								<p class="project-desc">Ta-Te-Ti con HTML5 Canvas. 3 modos de juego y 2 niveles de IA.
+								</p>
+								<div class="project-tags">
+									<span>Canvas</span>
+									<span>JS</span>
+								</div>
+								<div class="project-links">
+									<a href="https://leandrolobo.github.io/tatetiCanvas/" target="_blank"><i
+											class='bx bx-link-external'></i> Demo</a>
+									<a href="https://github.com/LeandroLobo/tatetiCanvas" target="_blank"><i
+											class='bx bxl-github'></i> Code</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project 3 -->
+						<div class="project-card">
+							<div class="card-image">
+								<img src="img/trucon.png" alt="TrucOn">
+							</div>
+							<div class="project-info">
+								<h4>TrucOn</h4>
+								<p class="project-desc">Truco online 1vs1. Proyecto final de curso de desarrollo mobile.
+								</p>
+								<div class="project-tags">
+									<span>Firebase</span>
+									<span>JS</span>
+								</div>
+								<div class="project-links">
+									<a href="https://leandrolobo.github.io/TrucOn/" target="_blank"><i
+											class='bx bx-link-external'></i> Demo</a>
+									<a href="https://github.com/LeandroLobo/TrucOn" target="_blank"><i
+											class='bx bxl-github'></i> Code</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project 4 -->
+						<div class="project-card">
+							<div class="card-image">
+								<img src="img/dados.png" alt="Generala">
+							</div>
+							<div class="project-info">
+								<h4>Generala</h4>
+								<p class="project-desc">Juego de Generala + Anotador. Desarrollo colaborativo con
+									Framework7.</p>
+								<div class="project-tags">
+									<span>Framework7</span>
+									<span>Responsive</span>
+								</div>
+								<div class="project-links">
+									<a href="https://leandrolobo.github.io/Generala/" target="_blank"><i
+											class='bx bx-link-external'></i> Demo</a>
+									<a href="https://github.com/LeandroLobo/Generala" target="_blank"><i
+											class='bx bxl-github'></i> Code</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project 5 -->
+						<div class="project-card">
+							<div class="card-image">
+								<img src="img/anotadorTruco.png" alt="Anotador Truco">
+							</div>
+							<div class="project-info">
+								<h4>Anotador Truco</h4>
+								<p class="project-desc">Anotador digital para Truco. Opciones para jugar a 15 o 30
+									puntos.</p>
+								<div class="project-tags">
+									<span>JS</span>
+									<span>CSS</span>
+								</div>
+								<div class="project-links">
+									<a href="https://leandrolobo.github.io/anotadorDeTruco/" target="_blank"><i
+											class='bx bx-link-external'></i> Demo</a>
+									<a href="https://github.com/LeandroLobo/anotadorDeTruco" target="_blank"><i
+											class='bx bxl-github'></i> Code</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project 6 -->
+						<div class="project-card">
+							<div class="card-image">
+								<img src="img/fondoAnimado3.gif" alt="ClimApp">
+							</div>
+							<div class="project-info">
+								<h4>ClimApp</h4>
+								<p class="project-desc">App de clima. Detecta ubicación y muestra el estado del tiempo
+									actual.</p>
+								<div class="project-tags">
+									<span>API</span>
+									<span>Geolocation</span>
+								</div>
+								<div class="project-links">
+									<a href="https://leandrolobo.github.io/ClimApp/" target="_blank"><i
+											class='bx bx-link-external'></i> Demo</a>
+									<a href="https://github.com/LeandroLobo/ClimApp" target="_blank"><i
+											class='bx bxl-github'></i> Code</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="contenedor-tarjeta">
-				<div class="tarjeta">
-					<img src="img/dados.png" alt="generala">
-					<div class="info-tarjeta">
-						<h3>Generala</h3>
-						<h4>Generala + Anotador</h4>
-						<p>Trabajo colaborativo curso de ComunidadIT.</p>
-						<p>#Framework7 #Responsive</p>
-						<div>
-							<a href="https://leandrolobo.github.io/Generala/" class="icono-texto" target="blank">
-								<p>jugar:</p>
-								<i class="icono-play"></i>
-							</a>
-							<a href="https://github.com/LeandroLobo/Generala" class="icono-texto" target="blank">
-								<p>ver código:</p>
-								<i class="icono-github"></i>
-							</a>
-						</div>
+				<button class="carousel-btn next" aria-label="Siguiente">&#10095;</button>
+			</div>
+		</section>
+
+		<section id="contacto" class="section-content">
+			<div class="section-header">
+				<h3>Contacto</h3>
+			</div>
+			<div class="contact-wrapper">
+				<div class="contact-methods">
+					<div class="method">
+						<span class="label">Email</span>
+						<a href="mailto:leandrolobomarquez@gmail.com">leandrolobomarquez@gmail.com</a>
+					</div>
+					<div class="method">
+						<span class="label">LinkedIn</span>
+						<a href="https://www.linkedin.com/in/leandrolobo-app-developer/"
+							target="_blank">/in/leandrolobo-app-developer</a>
+					</div>
+					<div class="method">
+						<span class="label">GitHub</span>
+						<a href="https://github.com/LeandroLobo" target="_blank">/LeandroLobo</a>
 					</div>
 				</div>
-			</div>
 
-			<div class="contenedor-tarjeta">
-				<div class="tarjeta">
-					<img src="img/anotadorTruco.png" alt="anotador de truco">
-					<div class="info-tarjeta">
-						<h3>Anotador Truco</h3>
-						<h4>A 30 o a 24 pts</h4>
-						<p>Un anotador perfecto para no gastar papel.</p>
-						<p>#Javascript #CSS</p>
-						<div>
-							<a href="https://leandrolobo.github.io/anotadorDeTruco/" class="icono-texto" target="blank">
-								<p>jugar:</p>
-								<i class="icono-play"></i>
-							</a>
-							<a href="https://github.com/LeandroLobo/anotadorDeTruco" class="icono-texto" target="blank">
-								<p>ver código:</p>
-								<i class="icono-github"></i>
-							</a>
-						</div>
+				<form action="" class="contact-form" name="formularioContacto">
+					<div class="form-group">
+						<label for="nombre">Nombre</label>
+						<input type="text" name="nombre" id="nombre" required>
 					</div>
-				</div>
-			</div>
-
-			<div class="contenedor-tarjeta">
-				<div class="tarjeta">
-					<img src="img/fondoAnimado3.gif" alt="climapp">
-					<div class="info-tarjeta">
-						<h3>ClimApp</h3>
-						<h4>Estado del tiempo</h4>
-						<p>Obtiene tu ubicación y te dice el estado del tiempo actual.</p>
-						<p>#geolocation #maps</p>
-						<div>
-							<a href="https://leandrolobo.github.io/ClimApp/" class="icono-texto" target="blank">
-								<p>abrir:</p>
-								<i class="icono-play"></i>
-							</a>
-							<a href="https://github.com/LeandroLobo/ClimApp" class="icono-texto" target="blank">
-								<p>ver código:</p>
-								<i class="icono-github"></i>
-							</a>
-						</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" required>
 					</div>
-				</div>
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+						<textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+				</form>
 			</div>
+		</section>
+	</main>
 
-		</div>
-	</section>
-	<section id="sobre-mi" class="caja-section">
-		<div class="titulo-section">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<h3>sobre mí</h3>
-		</div>
-		<div id="quien-soy">
-			<div>
-				<img src="img/LLL.jpg" alt="Leandro Lobo">
-			</div>
-			<div>
-				<h4>quien soy:</h4>
-				<br>
-				<p>Soy un <strong>Desarrollador</strong> junior de aplicaciones y páginas <strong>Web</strong>, profesor de <strong>matemáticas</strong>, <strong>técnico aeronáutico</strong>, estudiante de <strong>ingeniería electrónica</strong>, además de ser un gran <strong>autodidacta</strong>, apasionado por la <strong>música</strong>, los <strong>videojuegos</strong> y las <strong>figuras geométricas</strong>.</p>
-				<br>
-				<p>Mi <strong>experiencia</strong> en diversas áreas industriales, comerciales y educativas (desde cadete administrativo hasta <strong>planificación</strong> de <strong>operaciones aeronáuticas complejas</strong>) es una ventaja a la hora de usar la <strong>imaginación</strong> para <strong> resolver problemas.</strong></p>
-			</div>
-		</div>
-		<div id="quote">
-			<p><i>"Si la mente de un hombre es capaz de concebir algo, es porque de manera consciente o iconsciente conoce los medios para lograrlo"</i></p>
-			<p><strong><< Napoleon Hill >></strong></p>
-		</div>
-		<div id="estudios">
-			<h4>Habilidades y Conocimientos</h4>
-			<br>
-			<h5>Desarrollo Front-End</h5>
-			<p>HTML5, CSS3, React.js, GitHub, Responsive Design, Google Firebase (cloud, firestore, authentication)</p>
-			<br>
-			<h5>Desarrollo Back-end</h5>
-			<p>JavaScript ES6+, Node.js, Express, API rest, NPM.</p>
-			<br>
-			<h5>Aplicaciones Mobile</h5>
-			<p>Desarrollo Mobile híbrido, Apache Cordova.</p>
-			<br>
-			<h5>Inglés Técnico</h5>
-			<p>Lectura y escritura avanzada. Nivel oral intermedio</p>
-			<br>
-			<h5>Herramientas de Diseño</h5>
-			<p>Corel Draw, Illustrator, AutoCad</p>
-			<br>
-			<h5>Matemáticas</h5>
-			<p>Análisis de funciones, álgebra lineal, optimización, resolución de problemas.</p>
-		</div>
-		<div id="descarga-cv">
-			<p>¿Queres conocer mi experiencia laboral y trayectoria académica?</p>
-			<a download="CV Leandro Lobo" href="img\CV Leandro Lobo.pdf" target="_blank"><h4>Descargar Curriculum en PDF</h4></a>
-		</div>
-	</section>
-	<section id="contacto" class="caja-section">
-		<div class="titulo-section">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<h3>contacto</h3>
-		</div>
-		<div class="links-contacto">
-			<a href="https://github.com/LeandroLobo" class="icono-texto" target="blank">
-				<i class="icono-github"></i>
-			</a>
-			<a href="https://www.linkedin.com/in/leandrolobo-app-developer/" class="icono-texto" target="blank">
-				<i class="icono-linkedin"></i>
-			</a>
-			<a href="mailto:leandrolobomarquez@gmail.com" class="icono-texto" target="blank">
-				<i class="icono-mail"></i>
-			</a>
-			<a href="https://api.whatsapp.com/send?phone=+5491136809104&text=Hola%20Leandro,%20quiero%20ponerme%20en%20contacto%20con%20vos." class="icono-texto" target="blank">
-				<i class="icono-whatsapp"></i>
-			</a>
-		</div>
-		<div class="formulario">
-			<form action="" class="formulario-contacto" name="formularioContacto">
-				<div class="input-group">
-					<input type="text" name="nombre" id="nombre">
-					<label for="nombre" class="label">Nombre</label>
-				</div>
-
-				<div class="input-group">
-					<input type="email" name="email" id="email">
-					<label for="email" class="label">Correo Electrónico</label>
-				</div>
-
-				<div class="input-group">
-					<textarea name="mensaje" id="mensaje"></textarea>
-					<label for="mensaje" class="label">Mensaje</label>
-				</div>
-
-				<input type="submit" value="Enviar">
-			</form>
-		</div>
-	</section>
 	<footer>
-		<p>Diseñado y Creado por Leandro Lobo || año 2021.</p>
-		<p>pure static Vanilla style</p>
+		<div class="footer-content">
+			<p>&copy; 2025 Leandro Lobo</p>
+		</div>
 	</footer>
+
 	<!-------- SCRIPTS -------->
 	<script src="js/menu.js"></script>
 	<script src="js/smooth-scroll.js"></script>
-	<script src="js/bgParallax.js"></script>
-	<script src="js/insertar-iconos.js"></script>
+	<script src="js/carousel.js"></script>
 	<script src="js/formulario.js"></script>
 </body>
+
 </html>
